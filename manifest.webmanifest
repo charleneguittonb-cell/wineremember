@@ -1,0 +1,15 @@
+{
+  "name": "Wineremember",
+  "short_name": "Wineremember",
+  "description": "Snap your wines and remember everything you have tasted.",
+  "start_url": "/#scan",
+  "display": "standalone",
+  "background_color": "#faf6f1",
+  "theme_color": "#5b1a2e",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  }
+}
